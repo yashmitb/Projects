@@ -24,3 +24,5 @@ icon.onclick = function () {
     localStorage.setItem("theme", "light");
   }
 };
+
+// Comment asd
