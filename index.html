@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <img src="./moon.png" alt="moon" id="icon" />
+    <h1>Projects</h1>
+    <div
+      class="card rgb"
+      onclick="window.open(
+        'https://yashmitb.github.io/yashmitb/', '_blank');"
+    >
+      <div class="card-image"></div>
+      <div class="card-text">
+        <span class="date">Yashmit's</span>
+        <h2>Website</h2>
+        <p>Check out my portfolio!</p>
+      </div>
+    </div>
+    <div
+      class="card"
+      onclick="window.open(
+      'https://sticker.yoshiii.repl.co/', '_blank');"
+    >
+      <div class="card-image card2"></div>
+      <div class="card-text card2">
+        <span class="date">Games</span>
+        <h2>Sticker</h2>
+        <p>
+          Sticker is a website made to showcase games our group made for our CS
+          finals!
+        </p>
+      </div>
+    </div>
+    <div
+      class="card"
+      onclick="window.open(
+      'https://google.com', '_blank');"
+    >
+      <div class="card-image card3"></div>
+      <div class="card-text card3">
+        <span class="date">Robotics</span>
+        <h2>Arduino projects</h2>
+        <p>Check out the projects I made using Arduino!</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image card4"></div>
+      <div class="card-text card4">
+        <span class="date">Subtitle</span>
+        <h2>Post 4</h2>
+        <p>Dummy text</p>
+      </div>
+    </div>
+
+    <script src="vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        glare: true,
+        reverse: true,
+        "max-glare": 0.15,
+      });
+    </script>
+  </body>
+</html>
